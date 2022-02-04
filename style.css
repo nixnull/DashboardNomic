@@ -1,0 +1,31 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+}
+
+.tp {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.lft {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.cntr {
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.rght {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.bttm {
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
