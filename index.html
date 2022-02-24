@@ -6,22 +6,29 @@
 
 <div class="wrapper">
     <div class="tp">
-        <h1 style="text-align:center">Dashboard Nomic</h1>
+        <h1 style="text-align:center">Agoran Dashboard</h1>
     </div>
     <div class="cntr">
-        Board Go Here
+        <h2 style="text-align:center">Current Economic Holdings</h2>
+        <embed type="text/html" src="https://agoranomic.org/Treasuror/reports/weekly/fresh.txt" width="550" height="800">
+
     </div>
     <div class="rght">
-        <p id="players"></p>
+        <h2 id="messages" style="text-align:center">Recent Messages</h2>
+        
+        <script language="JavaScript" src="https://www.feedroll.com/rssviewer/feed2js.php?src=https%3A%2F%2Fkill-the-newsletter.com%2Ffeeds%2Fjb7ojap9sf32nji5.xml&num=10&au=y&targ=y&utf=y"  charset="UTF-8" type="text/javascript"></script>
+
+        <noscript>
+        <a href="https://www.feedroll.com/rssviewer/feed2js.php?src=https%3A%2F%2Fkill-the-newsletter.com%2Ffeeds%2Fjb7ojap9sf32nji5.xml&num=10&au=y&targ=y&utf=y&html=y">View RSS feed</a>
+        </noscript>
     </div>
 </div>
 
 </body>
 </html>
-
-
+<!--
 <script type="text/javascript" src="players.json"></script>
 <script>
 const plyrs = JSON.parse(players);
 document.getElementById("players").innerHTML = plyrs[0].name;
-</script>
+</script>-->
