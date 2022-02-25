@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<style>
+.wrapper {
+    grid-template-columns: 49% 49%;
+}
+
+.lft {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.rght {
+    grid-column: 2;
+    grid-row: 3;
+}
+</style>
+
+<div class="wrapper">
+    <div class="tp">
+        <h1 style="text-align:center">Agoran Dashboard</h1>
+    </div>
+    <div class="nvbr">
+        <p style="text-align:center"><a href="index.html">Home</a> <a href="judgment.html">Judgment</a> <a href="law.html">Law</a> <a href="Registrar & ADoP.html">Registrar & ADoP</a></p>
+    </div>
+    <div class="lft">
+        <h2 style="text-align:center">Short Logical Ruleset</h2>
+        <center><embed type="text/html" src="https://agoranomic.org/ruleset/slr.txt" width="550" height="800"></center>
+    </div>
+    <div class="rght">
+        <h2 style="text-align:center">Latest Assessments</h2>
+        <center><embed type="text/html" src="https://agoranomic.org/assessor/8638-8644.txt" width="550" height="800"></center>
+    </div>
+</div>
+
+</body>
+</html>
+<!--
+<script type="text/javascript" src="players.json"></script>
+<script>
+const plyrs = JSON.parse(players);
+document.getElementById("players").innerHTML = plyrs[0].name;
+</script>-->
