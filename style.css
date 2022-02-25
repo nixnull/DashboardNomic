@@ -1,12 +1,13 @@
 body {   
     background-color: #84849C;
+    width: 100%;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    grid-gap: 10px;
+    grid-template-columns: 32% 33% 32%;
+    grid-template-rows: 32% 33% 32%;
+    grid-gap: 1%;
 }
 
 .tp {
@@ -40,9 +41,9 @@ body {
     background-color:#D3D4D7;
 }
 
-/*embed {
-    background-color:#D3D4D7;
-}*/
+embed {
+    width: 100%;
+}
 
 h2 {
     color: #E80708;
