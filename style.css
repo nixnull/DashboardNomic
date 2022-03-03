@@ -17,12 +17,6 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width:73em) {
-  .column {
-    width: 100%;
-  }
-}
-
 .nvbr {
     width: 100%;
     background-color: #333;
@@ -60,9 +54,13 @@ body {
     visibility: hidden;
 }
 
+/* Adjust elements to small screens */
 @media screen and (max-width:73em) {
   .mnbr {
     visibility: visible;
+  }
+  .column {
+    width: 100%;
   }
 }
 
