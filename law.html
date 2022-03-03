@@ -3,39 +3,23 @@
 <body>
 
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-<style>
-.wrapper {
-    grid-template-columns: 49% 49%;
-}
-
-.lft {
-    grid-column: 1;
-    grid-row: 3;
-}
-
-.rght {
-    grid-column: 2;
-    grid-row: 3;
-}
-</style>
 
 <div class="wrapper">
-    <div class="tp">
-        <h1 style="text-align:center">Agoran Dashboard</h1>
-    </div>
     <div class="nvbr">
-        <a href="index.html">Home</a>
+        <a href="index.html">Agora Dashboard</a>
         <a href="economy.html">Economy</a>
         <a href="judgment.html">Judgment</a>
         <a class="active" href="law.html">Law</a>
         <a href="Registrar & ADoP.html">Registrar & ADoP</a>
     </div>
-    <div class="lft">
+    <div class="column">
         <h2 style="text-align:center">Short Logical Ruleset</h2>
+        <p>The current ruleset, with rules grouped by what they do.</p>
         <center><embed type="text/html" src="https://agoranomic.org/ruleset/slr.txt" width="550" height="800"></center>
     </div>
-    <div class="rght">
+    <div class="column">
         <h2 style="text-align:center">Latest Assessments</h2>
+        <p>The latest changes to the rules.</p>
         <center><embed type="text/html" src="https://agoranomic.org/assessor/8638-8644.txt" width="550" height="800"></center>
     </div>
 </div>

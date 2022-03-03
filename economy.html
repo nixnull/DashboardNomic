@@ -3,41 +3,23 @@
 <body>
 
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-<style>
-.wrapper {
-    grid-template-columns: 49% 49%;
-}
-
-.lft {
-    grid-column: 1;
-    grid-row: 3;
-}
-
-.rght {
-    grid-column: 2;
-    grid-row: 3;
-}
-</style>
 
 <div class="wrapper">
-    <div class="tp">
-        <h1 style="text-align:center">Agoran Dashboard</h1>
-    </div>
     <div class="nvbr">
-    <div class="nvbr">
-        <a href="index.html">Home</a>
+        <a href="index.html">Agora Dashboard</a>
         <a class="active" href="economy.html">Economy</a>
         <a href="judgment.html">Judgment</a>
         <a href="law.html">Law</a>
         <a href="Registrar & ADoP.html">Registrar & ADoP</a>
     </div>
-    </div>
-    <div class="lft">
-        <h2 style="text-align:center">Current Economic Holdings</h2>
+    <div class="column">
+        <h2 style="text-align:center">Treasuror's Report</h2>
+        <p>Who owns what things, and recent changes to ownership.</p>
         <center><embed type="text/plain" src="https://agoranomic.org/Treasuror/reports/weekly/fresh.txt" width="550" height="800"></center>
     </div>
-    <div class="rght">
+    <div class="column">
         <h2 style="text-align:center">Scores</h2>
+        <p>Who has how many points, and recent changes to scores</p>
         <center><embed type="text/plain" src="https://agoranomic.org/Herald/Scores/scores.txt" width="550" height="800"></center>
 
     </div>
