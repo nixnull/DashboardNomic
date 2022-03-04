@@ -8,6 +8,14 @@ Promotor?
 Fora
 Glitter
 Ribbons?
-Herald
 Player History
 Web Resources
+
+Also:
+
+Links to the webpages for each office, alongside the current reports
+A "How to Play" page
+Clean up the Agora description on the home page
+Fix the times on the recent messages.
+Separate messages by forum? Off and Bus/Dis?
+Unsmush mobile chrome
